@@ -21,3 +21,12 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+@layer components {
+  .stackComp {
+    @apply cursor-pointer hover:scale-125 hover:font-semibold delay-[75];
+  }
+  .stackCard {
+    @apply min-h-max min-w-max w-[400px] h-[120px] bg-bg border-2 border-slate-400 hover:bg-slate-200 z-0 hover:z-10 rounded-xl cursor-pointer hover:scale-110 duration-75 flex flex-col justify-center items-center gap-4 whitespace-nowrap;
+  }
+}

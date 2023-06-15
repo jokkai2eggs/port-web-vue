@@ -1,17 +1,11 @@
 <template>
-  <div
-    class="h-full flex justify-center flex-col items-center flex-wrap gap-10"
-  >
-    <div class="flex flex-col gap-6">
-      <NuxtLink
-        v-for="item in menuList"
-        class="text-3xl cursor-pointer hover:scale-125 hover:font-semibold delay-[75]"
-        :to="item.r"
-      >
-        <div name="item" class="opacity-0">
+  <div class="flex flex-col gap-6">
+    <div v-for="item in menuList" name="item" class="opacity-0">
+      <div class="stackComp text-3xl">
+        <NuxtLink :to="item.r">
           {{ item.t }}
-        </div>
-      </NuxtLink>
+        </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
