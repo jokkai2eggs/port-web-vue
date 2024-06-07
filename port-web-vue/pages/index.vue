@@ -13,7 +13,12 @@
   </div>
   <div name="item" class="opacity-0">
     <div class="stackComp text-3xl">
-      {{ `< Contact />` }}
+      <NuxtLink
+        :to="`https://www.linkedin.com/in/jk-love-to-code/`"
+        :target="'_blank'"
+      >
+        {{ `< Contact />` }}
+      </NuxtLink>
     </div>
   </div>
 </template>

@@ -43,8 +43,8 @@ const stackExp = [
       '/nodejs.svg',
       '/typescript.svg',
       '/psql.svg',
-      '/golang.svg',
-      '/redis.svg',
+      // '/golang.svg',
+      // '/redis.svg',
     ],
   },
   {
@@ -53,13 +53,18 @@ const stackExp = [
       '/docker.svg',
       '/github.svg',
       '/heroku.svg',
-      '/digitalOcean.svg',
+      // '/digitalOcean.svg',
       '/fireBase.svg',
     ],
   },
   {
     t: 'Blockchain & Web3',
-    i: ['/solidity.svg', '/metamask.svg', '/openSea.svg', '/dune.svg'],
+    i: [
+      // '/solidity.svg',
+      '/metamask.svg',
+      '/openSea.svg',
+      '/dune.svg',
+    ],
   },
 ]
 
